@@ -1,12 +1,10 @@
 /* style.css */
-
 body {
     font-family: Arial, sans-serif; /* Fallback font family */
     text-align: center; /* Center-align text */
     margin: 0; /* Remove default margin */
     background-color: #FADADD; /* Set background color to light pink */
 }
-
 #container {
     display: flex; /* Use flexbox layout */
     flex-direction: column; /* Stack elements vertically */
@@ -14,20 +12,16 @@ body {
     justify-content: center; /* Center-align items vertically */
     height: 100vh; /* Make the container full viewport height */
 }
-
 #image-container {
     /* This container will hold the images */
 }
-
 #question {
     font-family: 'Sacramento', cursive; /* Apply Sacramento font to the question */
     font-size: 52px; /* Set font size for the question */
 }
-
 #options {
     margin-top: 20px; /* Add space above the options */
 }
-
 button {
     padding: 10px 20px; /* Set padding for buttons */
     margin: 0 10px; /* Set margin around buttons */
